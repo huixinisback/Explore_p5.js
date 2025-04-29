@@ -4,12 +4,10 @@ let walls;
 let pelletSpawnPoints = [];
 let score=0;
 
-
 function setup() {
     const width = 400;
     const height = 400;
     new Canvas(width, height);
-
 
     // Create pacman sprite
     pacman = new Sprite();
